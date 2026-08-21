@@ -2,14 +2,20 @@
 
 int main()
 {
-    double a, b, sum;
+    double a, b, difference;
 
-    printf("Enter two double values: ");
-    scanf("%lf %lf", &a, &b);
+    printf("Subtraction of two double numbers\n");
 
-    sum = a - b;
+    printf("Enter the first number: ");
+    scanf("%lf", &a);
 
-    printf("Sum = %.2lf\n", sum);
+    printf("Enter the second number: ");
+    scanf("%lf", &b);
+
+    difference = a - b;
+
+    printf("The difference of %.4lf and %.4lf is %.4lf",
+           a, b, difference);
 
     return 0;
 }
