@@ -3,10 +3,9 @@ int main()
 {
     int a = 15;
     int b = 4;
-    float y;
     int s = a / b;
-    x = a % b;
-    y = 15.0/4.0;
+    float x = a % b;
+    float y = 15.0/4.0;
     int p = 6*2-4;
     int q =(6*2)-(10%3);
 
