@@ -29,10 +29,5 @@ int main()
   } else {
     printf("Good evening.");
   }
-
-
-
-
-
     return 0;
 }
