@@ -1,10 +1,16 @@
 #include <stdio.h>
 
-inline int add(int a, int b) {
-  return a + b;
+// Inline function definition
+inline int square(int x) {
+    return x * x;
 }
 
 int main() {
-  printf("%d", add(5, 3));
-  return 0;
+    int num = 5;
+    
+    // The compiler can replace this call with: int result = 5 * 5;
+    int result = square(num); 
+    
+    printf("The square of %d is %d\n", num, result);
+    return 0;
 }
