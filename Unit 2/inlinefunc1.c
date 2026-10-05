@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Inline function definition
-inline int square(int x) {
+static inline int square(int x) {
     return x * x;
 }
 
