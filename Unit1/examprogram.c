@@ -10,5 +10,16 @@ printf("d = %d\n", d);
 printf("x = %d\n", x);
 printf("y = %d\n", y);
 printf("z = %d\n", z);
+
+
+int marks =75;
+if (marks >= 50)
+{
+    printf("marks is 50\n");
+}
+else
+{
+    printf("marks is not 50\n");
+}
 return 0;
 }
