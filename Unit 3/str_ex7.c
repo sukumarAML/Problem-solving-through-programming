@@ -19,7 +19,7 @@ int main()
     
     printf("str2: %s \n", str2);
 
-    const char *str2 = "New String";
+    //const char *str2 = "New String";
 
     printf("str2: %s \n", str2);
     return 0;
