@@ -14,10 +14,17 @@ int main() {
   //s1.myString = "Some text";
 
     // Assign a value to the string using the strcpy function
-  strcpy(s1.myString, "Some text");
+  strcpy(s1.myString, "Important text");
 
   // Trying to print the value
-  printf("My string: %s", s1.myString);
+  printf("My string1: %s\n", s1.myString);
+
+  struct myStructure s2 = {13, 'B', "Some text"};
+  struct myStructure s3;
+
+  s3 = s2;
+
+printf("My string2: %s \n", s2.myString);
 
   return 0;
 }
