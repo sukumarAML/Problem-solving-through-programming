@@ -1,7 +1,6 @@
 #include <stdio.h>
-
 int main() {
-  // A 3D array with 2 blocks, each with 4 rows and 3 columns
+  // A 3D array with 2 blocks, each with 4 rows and 3 columns≠
   int example[2][4][3] = {
     {
       {1, 2, 3}, {4, 5, 6}, {7, 8, 9}, {10, 11, 12}
@@ -22,6 +21,5 @@ int main() {
     }
     printf("\n");
   }
-
   return 0;
 }
