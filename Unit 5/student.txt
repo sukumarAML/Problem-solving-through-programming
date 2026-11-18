@@ -1,0 +1,28 @@
+--- Student Details ---
+Roll No : 101
+Name    : Rajesh
+Marks   : 49.50
+--- Student Details ---
+Roll No : 102
+Name    : suresh
+Marks   : 83.50
+--- Student Details ---
+Roll No : 103
+Name    : ananth
+Marks   : 78.50
+--- Student Details ---
+Roll No : 104
+Name    : charan
+Marks   : 65.00
+--- Student Details ---
+Roll No : 105
+Name    : guptha
+Marks   : 55.00
+--- Student Details ---
+Roll No : 106
+Name    : Kumar
+Marks   : 95.00
+--- Student Details ---
+Roll No : 107
+Name    : Rahul
+Marks   : 80.00
