@@ -1,2 +1,3 @@
 
 log 1: read data
+log 1: write data
